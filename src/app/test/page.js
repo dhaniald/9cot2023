@@ -17,7 +17,7 @@ export default function page() {
     //2.2 Function defenation area
     const test1 = () => {
         console.log("Hello")
-        let x = prclsompt("Please enter your name")
+        let x = prompt("Please enter your name")
         console.log(x)
         setName4(x)
     }
